@@ -10,11 +10,11 @@ package lemon.shop;
  * @author ACER
  */
 public class Petugas_Restock {
-    String idPegawai;
-    String nama;
-    String NIK;
+    private String idPegawai;
+    private String nama;
+    private String NIK;
     
-    public Petugas_Restock(String idPegawai, String nama, String NIK){
+    public void Petugas_Restock(String idPegawai, String nama, String NIK){
         this.idPegawai = idPegawai;
         this.nama = nama;
         this.NIK = NIK;
