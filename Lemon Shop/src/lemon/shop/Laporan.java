@@ -12,12 +12,12 @@ package lemon.shop;
 
 import java.util.Date;
 public class Laporan {
-    String kodeLaporan;
-    String kategori;
+    private String kodeLaporan;
+    private String kategori;
     private Date awal;
     private Date akhir;
     
-    public Laporan(String kodeLaporan, String kategori, Date awal, Date akhir){
+    public void Laporan(String kodeLaporan, String kategori, Date awal, Date akhir){
         this.kodeLaporan = kodeLaporan;
         this.kategori = kategori;
         this.awal = awal;
