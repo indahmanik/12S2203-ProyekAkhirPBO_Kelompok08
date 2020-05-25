@@ -10,10 +10,10 @@ package lemon.shop;
  * @author ACER
  */
 public class Rak {
-    String kodeRak;
-    String lokasi;
+    private String kodeRak;
+    private String lokasi;
     
-    public Rak(String kodeRak, String lokasi){
+    public void Rak(String kodeRak, String lokasi){
         this.kodeRak = kodeRak;
         this.lokasi = lokasi;
     }
