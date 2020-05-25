@@ -12,10 +12,10 @@ package lemon.shop;
 
 import java.util.Date;
 public class Pemilik {
-   String NIK;
-   String nama;
+   private String NIK;
+   private String nama;
    
-   public Pemilik(String NIK, String nama){
+   public void Pemilik(String NIK, String nama){
        this.NIK = NIK;
        this.nama = nama;
    }
