@@ -13,13 +13,13 @@ import java.util.Date;
  */
 
 public class Buah {
-    String kodeBuah;
-    int harga;
-    Date arrivalDate;
-    String expiredDate;
-    int jumlahStok;
+    private String kodeBuah;
+    private int harga;
+    private Date arrivalDate;
+    private String expiredDate;
+    private int jumlahStok;
     
-    public Buah(String kodeBuah, int harga, Date arrivalDate, String expiredDate, int jumlahStok){
+    public void Buah(String kodeBuah, int harga, Date arrivalDate, String expiredDate, int jumlahStok){
         this.kodeBuah = kodeBuah;
         this.arrivalDate = arrivalDate;
         this.expiredDate = expiredDate;
@@ -31,7 +31,7 @@ public class Buah {
         this.kodeBuah = null;
     }
     
-    public void getHarga(){
+    public void getHarga(int harga){
         this.harga = harga;
         this.kodeBuah = null;
     }
