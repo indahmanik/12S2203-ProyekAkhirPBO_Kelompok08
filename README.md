@@ -2,7 +2,7 @@
 12S18008 - Indah Tri Anastasya Manik
 
 
-12S18037 - Andika Meidi Fransius Tarigan
+12S18037 - Andika Meidy Fransius Tarigan
 
 
 12S18054 - Erika Natalia Simaremare 
