@@ -13,7 +13,7 @@ package lemon.shop;
 import java.util.Date;
 
 public class Pembeli {
-  private Date tanggalKunjung;
+  private Date tanggalKunjungan;
 
 public static void main(String args[]){
     Date date = new Date();
@@ -22,7 +22,7 @@ public static void main(String args[]){
     
    }
 
-public getHarga(){
-    
+public int getHarga(){
+    return harga;
 }
 }
