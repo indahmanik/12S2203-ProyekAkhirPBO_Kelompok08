@@ -12,8 +12,8 @@ import java.util.Date;
  * @author ACER
  */
 public class Resi {
-    String kodeTransaksi;
-    String integer;
+    private String kodeTransaksi;
+    private String integer;
     Date date;
     
     public Resi(String kodeTransaksi, String integer, Date date){
