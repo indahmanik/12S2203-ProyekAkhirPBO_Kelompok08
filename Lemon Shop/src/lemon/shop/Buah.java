@@ -49,7 +49,7 @@ public void setHarga(double harga){
 }
 
 public setArrivalDate(Date arrivalDate){
-    today.getDate();
+    this.getArrivalDate();
 }
     
 public setExpiredDate(String expiredDate){
