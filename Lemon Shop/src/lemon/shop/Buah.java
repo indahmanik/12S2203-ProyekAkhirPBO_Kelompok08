@@ -18,7 +18,7 @@ public class Buah {
    private double harga;
    private Date arrivalDate;
    private String expiredDate;
-   private int jumlah;
+   private int lokasi;
     
     public Buah(){
         this(0,"Unknown",0,0.00);
@@ -27,7 +27,7 @@ public class Buah {
     public Buah(int kodeBuah, String namaBuah, int harga, Date arrivalDate, String expiredDate, int jumlahStok){
         kodeBuah = kodeBuah;
         setNamaBuah(namaBuah);
-        setJumlahStok(jumlahStok);
+        setlokasi(lokasi);
         setArrivalDate(arrivalDate);
         setExpiredDate(expiredDate);
         setHarga(harga);
@@ -37,11 +37,8 @@ public void setNamaBuah(String namaBuah){
     namaBuah = namaBuah;
 }
 
-public void setJumlahStok(int jumlahStok){
-    if(jumlahStok > 0){
-        jumlah = jumlahStok;
-    }
-    else{jumlah = 0;}
+public int getlokasi(){
+   return lokasi;
 }
 
 public void setHarga(double harga){
@@ -61,10 +58,6 @@ public setExpiredDate(String expiredDate){
 
 public String getNamaBuah(){
     return namaBuah;
-}
-
-public int getJumlahStok(){
-    return jumlah;
 }
 
 public double getHarga(){
