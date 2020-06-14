@@ -20,14 +20,12 @@ public class Buah {
    private String expiredDate;
    private int lokasi;
     
-    public Buah(){
-        this(0,"Unknown",0,0.00);
-    }
+
     
     public Buah(int kodeBuah, String namaBuah, int harga, Date arrivalDate, String expiredDate, int jumlahStok){
         kodeBuah = kodeBuah;
         setNamaBuah(namaBuah);
-        setlokasi(lokasi);
+        setlokai(lokasi);
         setArrivalDate(arrivalDate);
         setExpiredDate(expiredDate);
         setHarga(harga);
@@ -37,10 +35,6 @@ public void setNamaBuah(String namaBuah){
     namaBuah = namaBuah;
 }
 
-public int getlokasi(){
-   return lokasi;
-}
-
 public void setHarga(double harga){
     if(harga > 0.00){
         harga = harga;
@@ -48,16 +42,20 @@ public void setHarga(double harga){
     else{harga = 0.00;}
 }
 
-public setArrivalDate(Date arrivalDate){
+public void setArrivalDate(Date ArrivalDate){
     this.getArrivalDate();
 }
-    
-public setExpiredDate(String expiredDate){
+  
+public void setExpiredDate(String expiredDate){
     expiredDate = expiredDate;
 }
 
 public String getNamaBuah(){
     return namaBuah;
+}
+
+public String lokasi(){
+    return lokasi;
 }
 
 public double getHarga(){
@@ -79,5 +77,7 @@ public double getItemValue(){
 public String toString(){
     return namaBuah + " - " + harga;
 }
-}
 
+    private void getArrivalDate() {
+    }
+}
