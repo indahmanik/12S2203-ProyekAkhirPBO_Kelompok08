@@ -12,20 +12,20 @@ import java.util.Date;
  * @author kelompok08
  */
 
-public class Buah {
+   public class Buah {
    private int kodeBuah = 0;
    private String namaBuah;
    private double harga;
    private Date arrivalDate;
    private String expiredDate;
-   private int lokasi;
+   private String lokasi;
     
 
     
     public Buah(int kodeBuah, String namaBuah, int harga, Date arrivalDate, String expiredDate, int jumlahStok){
         kodeBuah = kodeBuah;
         setNamaBuah(namaBuah);
-        setlokai(lokasi);
+        lokasi = lokasi;
         setArrivalDate(arrivalDate);
         setExpiredDate(expiredDate);
         setHarga(harga);
@@ -54,7 +54,11 @@ public String getNamaBuah(){
     return namaBuah;
 }
 
-public String lokasi(){
+public int getkodeBuah(){
+    return kodeBuah;
+}
+
+public String getlokasi(){
     return lokasi;
 }
 
@@ -68,10 +72,6 @@ public Date arrivalDate(){
 
 public String expiredDate(){
     return expiredDate;
-}
-
-public double getItemValue(){
-    return (harga * (double)jumlah);
 }
 
 public String toString(){
